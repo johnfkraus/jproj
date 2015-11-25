@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'mptt',
     'tagging',
     'zinnia',
+    'jour',
 )
 
 MIDDLEWARE_CLASSES = (
