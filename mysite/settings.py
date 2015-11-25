@@ -61,7 +61,18 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            # allauth templates: you could copy this directory into your
+            # project and tweak it according to your needs
+            # os.path.join(PROJECT_ROOT, 'templates', 'uniform', 'allauth'),
+            # example project specific templates
+            # os.path.join(BASE_DIR, 'allauthdemo', 'templates', 'plain', 'example'),
+            # os.path.join(BASE_DIR, 'allauthdemo', 'templates', 'bootstrap', 'allauth'),
+            # os.path.join(BASE_DIR, 'allauthdemo', 'templates', 'allauth'),
+            # os.path.join(BASE_DIR, 'allauthdemo', 'templates'),
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'jour', 'templates'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors':
@@ -155,3 +166,9 @@ try:
     print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'SITE_ID =', SITE_ID)
 except NameError:
     print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'SITE_ID is not defined')
+
+
+try:
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'site_url =', site_url)
+except NameError:
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'site_url is not defined')
