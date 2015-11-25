@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import mysite.my_utils
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -20,12 +21,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '6&^#33c1y@9g-(-6ieu(f^t!4tz5+a8swtggzcy()1)vzpyp17'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True   see settings_local.py
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -109,3 +109,43 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 SITE_ID = 1
+
+try:
+    from mysite.settings_secret import *
+except ImportError:
+    sys.stderr.write("ERROR: No secret settings found. \n\n")
+    sys.exit(1)
+
+
+try:
+    from mysite.settings_email import *
+except ImportError:
+    sys.stderr.write("ERROR: No email settings found. \n\n")
+    sys.exit(1)
+
+
+try:
+    from mysite.settings_verification import *
+except ImportError:
+    sys.stderr.write("ERROR: No verification settings found.\n\n")
+    sys.exit(1)
+
+
+try:
+    from mysite.settings_local import *
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'settings_local has been imported')
+except ImportError:
+    sys.stderr.write("WARNING: No local settings found.\n\n")
+    pass
+
+
+try:
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'DEBUG =', DEBUG)
+except NameError:
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'DEBUG is not defined')
+
+
+try:
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'SITE_ID =', SITE_ID)
+except NameError:
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'SITE_ID is not defined')
