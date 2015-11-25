@@ -71,6 +71,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.i18n',
                 'zinnia.context_processors.version',  # Optional
+                'mysite.context_processors.app_title',
             ],
         },
     },
@@ -109,6 +110,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 SITE_ID = 1
+
+APP_TITLE = 'The Journalism Project'  # SITE_TITLE, SITE_NAME
+
+DEFAULT_CONTACT = 'johnkraus3@gmail.com'
 
 try:
     from mysite.settings_secret import *
