@@ -83,7 +83,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.i18n',
                 'zinnia.context_processors.version',  # Optional
-                'mysite.context_processors.app_title',
+                'jour.context_processors.app_title',
             ],
         },
     },
