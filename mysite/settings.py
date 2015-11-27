@@ -70,6 +70,7 @@ TEMPLATES = [
             # os.path.join(BASE_DIR, 'allauthdemo', 'templates', 'bootstrap', 'allauth'),
             # os.path.join(BASE_DIR, 'allauthdemo', 'templates', 'allauth'),
             # os.path.join(BASE_DIR, 'allauthdemo', 'templates'),
+            os.path.join(BASE_DIR, 'zinnia', 'templates'),
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'jour', 'templates'),
         ],

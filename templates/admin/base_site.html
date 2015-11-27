@@ -1,11 +1,11 @@
 {% extends "admin/base.html" %}
 
-{% block title %}The Journalism Project Admin | {{ site_title|default:_('Django site admin') }}{% endblock %}
+{% block title %} {{ APP_TITLE }} Admin | {{ site_title|default:_('Django site admin') }}{% endblock %}
 
 {% block branding %}
     <h1 id="site-name">
         <a href="{% url 'admin:index' %}">
-            The Journalism Project Website Administration
+            {{ APP_TITLE }} Website Administration
         </a>
     </h1>
 {% endblock %}

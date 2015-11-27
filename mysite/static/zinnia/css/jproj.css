@@ -1,0 +1,5 @@
+# jproj/static/zinnia/css/jproj.css
+
+.zinnia #header h1::first-letter {
+  font-size: 100%;
+}

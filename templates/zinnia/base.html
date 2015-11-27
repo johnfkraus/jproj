@@ -9,6 +9,9 @@
     <meta name="generator" content="Zinnia {{ ZINNIA_VERSION }}" />
 {% endblock meta %}
 
+    <link rel="stylesheet" type="text/css" media="screen, projection" href="{% static "zinnia/theme/css/jproj.css" %}" />
+
+
 {% block link %}
     <link rel="index" href="{% url 'zinnia:entry_archive_index' %}" />
     <link rel="author" type="text/plain" href="{% url 'zinnia:humans' %}" />
@@ -28,7 +31,7 @@
 <aside id="widget-welcome" class="widget">
   <h3>{% trans "Welcome!" %}</h3>
   <p>
-    {% trans "This website is APP_TITLE = {{ APP_TITLE }} Journal  ism Proj  ect's showcase and learning tool." %}
+    This website is {{ APP_TITLE }}'s showcase and learning tool."
   </p>
 <!--
   <p>
