@@ -150,15 +150,14 @@ except ImportError:
     sys.stderr.write("ERROR: No verification settings found.\n\n")
     sys.exit(1)
 
-"""
+
 try:
-    import_filename = 'settings_db'
     from mysite.settings_local import *
     print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'settings_local has been imported')
 except ImportError:
     sys.stderr.write("WARNING: No local settings found.\n\n")
     pass
-"""
+
 
 try:
     from mysite.settings_db import *
