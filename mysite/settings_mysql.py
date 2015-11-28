@@ -16,6 +16,7 @@ DATABASES = {
         'NAME': 'jproj',
         'USER': 'root',
         'PASSWORD': 'wELCOME2!',
+        'HOST': 'mysql',
         # 'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         # 'PORT': '3306',
     }

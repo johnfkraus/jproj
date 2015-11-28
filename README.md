@@ -1,8 +1,6 @@
 # jproj
 
-Development URL: 
-
-
+Development URL:  http://h3r9c26o.apps.lair.io/
 
 Developed with Sublime Text 2 and Sourcelair (MySQL)
 
