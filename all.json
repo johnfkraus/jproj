@@ -1,0 +1,1351 @@
+[
+
+{
+  "model": "tagging.tag",
+  "pk": 1,
+  "fields": {
+    "name": "hoarding"
+  }
+},
+{
+  "model": "tagging.tag",
+  "pk": 2,
+  "fields": {
+    "name": "print"
+  }
+},
+{
+  "model": "tagging.tag",
+  "pk": 3,
+  "fields": {
+    "name": "aggregation"
+  }
+},
+{
+  "model": "tagging.tag",
+  "pk": 4,
+  "fields": {
+    "name": "mayhem"
+  }
+},
+{
+  "model": "tagging.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 12,
+    "object_id": 1
+  }
+},
+{
+  "model": "tagging.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 12,
+    "object_id": 1
+  }
+},
+{
+  "model": "tagging.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 12,
+    "object_id": 3
+  }
+},
+{
+  "model": "tagging.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 12,
+    "object_id": 3
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 1,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Intro",
+    "slug": "intro",
+    "lft": 1,
+    "description": "",
+    "tree_id": 7,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 2,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Politics",
+    "slug": "politics",
+    "lft": 1,
+    "description": "",
+    "tree_id": 13,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 3,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "International",
+    "slug": "international",
+    "lft": 1,
+    "description": "",
+    "tree_id": 6,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 4,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Satire",
+    "slug": "satire",
+    "lft": 1,
+    "description": "",
+    "tree_id": 15,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 5,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "History",
+    "slug": "history",
+    "lft": 1,
+    "description": "",
+    "tree_id": 5,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 7,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Sports",
+    "slug": "sports",
+    "lft": 1,
+    "description": "",
+    "tree_id": 18,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 8,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Local",
+    "slug": "local",
+    "lft": 1,
+    "description": "",
+    "tree_id": 9,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 9,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "National",
+    "slug": "national",
+    "lft": 1,
+    "description": "",
+    "tree_id": 10,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 11,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Business",
+    "slug": "business",
+    "lft": 1,
+    "description": "",
+    "tree_id": 1,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 12,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Technology",
+    "slug": "tech",
+    "lft": 1,
+    "description": "",
+    "tree_id": 19,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 13,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Lifestyle",
+    "slug": "lifestyle",
+    "lft": 1,
+    "description": "",
+    "tree_id": 8,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 14,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Entertainment",
+    "slug": "entertainment",
+    "lft": 1,
+    "description": "",
+    "tree_id": 3,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 15,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Video",
+    "slug": "video",
+    "lft": 1,
+    "description": "",
+    "tree_id": 22,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 16,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Photography",
+    "slug": "photography",
+    "lft": 1,
+    "description": "",
+    "tree_id": 12,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 17,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Opinions",
+    "slug": "opinions",
+    "lft": 1,
+    "description": "",
+    "tree_id": 11,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 18,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Top Stories",
+    "slug": "top-stories",
+    "lft": 1,
+    "description": "",
+    "tree_id": 21,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 19,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Health",
+    "slug": "health",
+    "lft": 1,
+    "description": "",
+    "tree_id": 4,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 20,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Tina Fey",
+    "slug": "tina-fey",
+    "lft": 1,
+    "description": "",
+    "tree_id": 20,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 21,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Society",
+    "slug": "society",
+    "lft": 1,
+    "description": "",
+    "tree_id": 17,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 22,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Science",
+    "slug": "science",
+    "lft": 1,
+    "description": "",
+    "tree_id": 16,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 23,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Education",
+    "slug": "education",
+    "lft": 1,
+    "description": "",
+    "tree_id": 2,
+    "parent": null
+  }
+},
+{
+  "model": "zinnia.category",
+  "pk": 24,
+  "fields": {
+    "level": 0,
+    "rght": 2,
+    "title": "Reference",
+    "slug": "reference",
+    "lft": 1,
+    "description": "",
+    "tree_id": 14,
+    "parent": null
+  }
+},
+
+
+
+
+{
+  "model": "django_comments.comment",
+  "pk": 2,
+  "fields": {
+    "submit_date": "2015-11-24T23:58:59.095Z",
+    "is_removed": false,
+    "ip_address": "127.0.0.1",
+    "user": 1,
+    "user_name": "admin",
+    "site": 1,
+    "user_url": "",
+    "comment": "How will the end of print journalism affect old loons who hoard newspapers?\r\n",
+    "content_type": 12,
+    "object_pk": "1",
+    "user_email": "johnkraus3@gmail.com",
+    "is_public": true
+  }
+},
+{
+  "model": "zinnia.entry",
+  "pk": 1,
+  "fields": {
+    "creation_date": "2015-11-24T20:21:32Z",
+    "status": 2,
+    "pingback_enabled": true,
+    "pingback_count": 0,
+    "comment_count": 2,
+    "image": "uploads/zinnia/2015/11/24/800px-simons_perskaart_dom_v2UL3S5.jpg",
+    "title": "What is Journalism? From Wikipedia, the free encyclopedia",
+    "categories": [
+      24
+    ],
+    "tags": "print,hoarding",
+    "detail_template": "entry_detail.html",
+    "login_required": false,
+    "trackback_count": 0,
+    "image_caption": "\"Simons Perskaart DOM\" by Marie-Anne08 - Own work. Licensed under CC BY-SA 3.0 via Commons - https://commons.wikimedia.org/wiki/File:Simons_Perskaart_DOM.jpg#/media/File:Simons_Perskaart_DOM.jpg",
+    "last_update": "2015-11-26T15:14:48.954Z",
+    "related": [],
+    "slug": "what-journalism-wikipedia-free-encyclopedia",
+    "content_template": "zinnia/_entry_detail.html",
+    "sites": [
+      1
+    ],
+    "comment_enabled": true,
+    "authors": [
+      1
+    ],
+    "end_publication": null,
+    "content": "The media that journalism uses vary diversely and include: content published via newspapers and magazines (print), television and radio (broadcast), and their digital media versions \u2014 news websites and applications.\r\n\r\nIn modern society, the news media is the chief purveyor of information and opinion about public affairs. Journalism, however, is not always confined to the news media or to news itself, as journalistic communication may find its way into broader forms of expression, including literature and cinema. In some nations, the news media is controlled by government intervention, and is not a fully independent body.[3]\r\n\r\nIn a democratic society, however, access to free information plays a central role in creating a system of checks and balance, and in distributing power equally amongst governments, businesses, individuals, and other social entities. Access to verifiable information gathered by independent media sources, which adhere to journalistic standards, can also be of service to ordinary citizens, by empowering them with the tools they need in order to participate in the political process.\r\n\r\nThe role and status of journalism, along with that of the mass media, has undergone profound changes over the last two decades with the advent of digital technology and publication of news on the Internet.[4] This has created a shift in the consumption of print media channels, as people increasingly consume news through e-readers, smartphones, and other electronic devices, challenging news organizations to fully monetize their digital wing, as well as improvise on the context in which they publish news in print. Notably, in the American media landscape, newsrooms have reduced their staff and coverage as traditional media channels, such as television, grapple with declining audiences. For instance, between 2007 and 2012, CNN edited its story packages into nearly half of their original time length.[5]\r\n\r\nThis compactness in coverage has been linked to broad audience attrition, as a large majority of respondents in recent studies show changing preferences in news consumption.[6] The digital era has also ushered in a new kind of journalism in which ordinary citizens play a greater role in the process of news making, with the rise of citizen journalism being possible through the Internet. Using video camera equipped smartphones, active citizens are now enabled to record footage of news events and upload them onto channels like YouTube, which is often discovered and used by mainstream news media outlets. Meanwhile, easy access to news from a variety of online sources, like blogs and other social media, has resulted in readers being able to pick from a wider choice of official and unofficial sources, instead of only from traditional media organizations.\r\n",
+    "start_publication": null,
+    "featured": true,
+    "lead": "Journalism is gathering, processing, and dissemination of news, and information related to news, to an audience. The word applies to the method of inquiring for news, the literary style which is used to disseminate it, and the activity (professional or not) of journalism.\r\n",
+    "excerpt": "How will the demise of print journalism affect old loons who hoard newspapers?",
+    "trackback_enabled": true,
+    "password": ""
+  }
+},
+{
+  "model": "zinnia.entry",
+  "pk": 2,
+  "fields": {
+    "creation_date": "2015-11-25T00:00:43Z",
+    "status": 2,
+    "pingback_enabled": true,
+    "pingback_count": 0,
+    "comment_count": 0,
+    "image": "uploads/zinnia/2015/11/26/woodrow_wilson_high_school.jpg",
+    "title": "Reporter For High School Newspaper Most Professional Journalist In Nation",
+    "categories": [
+      23,
+      9,
+      4
+    ],
+    "tags": "",
+    "detail_template": "entry_detail.html",
+    "login_required": false,
+    "trackback_count": 0,
+    "image_caption": "Woodrow Wilson High School",
+    "last_update": "2015-11-26T15:13:39.415Z",
+    "related": [],
+    "slug": "reporter-high-school-newspaper-most-professional-journalist-nation",
+    "content_template": "zinnia/_entry_detail.html",
+    "sites": [
+      1
+    ],
+    "comment_enabled": true,
+    "authors": [
+      1
+    ],
+    "end_publication": null,
+    "content": "\"I just want everyone on campus to know what's going on,\" said the student, who when reporting on various Woodrow Wilson  High events and activities attributes all details and assertions, runs quotes by sources before publishing them, and avoids sensationalism. \"I triple-check my facts and then take out anything that looks like an opinion from me\u2014just basic journalism stuff, really.\" Finklestern, 15, who with her short, cropped hair and tomboyish clothing is probably a lesbian, said that while she enjoyed writing for the student paper, she doubted she was good enough to ever do it for a living.",
+    "start_publication": null,
+    "featured": true,
+    "lead": "According to sources, sophomore Melanie Finkelstein, a reporter for Woodrow Wilson High School's Eagle Eye student newspaper, is, as of Tuesday, the most competent and professional journalist in the nation. \r\n",
+    "excerpt": "\"I just want everyone on campus to know what's going on,\" said the student, who when reporting on various Woodrow Wilson High events and activities attributes all details and assertions, runs quotes by sources before publishing them, and avoids sensationalism. \"I triple-check my facts and then take out anything that...",
+    "trackback_enabled": true,
+    "password": ""
+  }
+},
+{
+  "model": "zinnia.entry",
+  "pk": 3,
+  "fields": {
+    "creation_date": "2015-11-25T00:14:45Z",
+    "status": 2,
+    "pingback_enabled": true,
+    "pingback_count": 0,
+    "comment_count": 0,
+    "image": "uploads/zinnia/2015/11/25/huffington-aggregation-engine.jpg",
+    "title": "'Huffington Post' Employee Sucked Into Aggregation Turbine",
+    "categories": [
+      4
+    ],
+    "tags": "mayhem,aggregation",
+    "detail_template": "entry_detail.html",
+    "login_required": false,
+    "trackback_count": 0,
+    "image_caption": "The Huffington Post started using the turbine in earnest when the creation of actual original content was deemed cost-prohibitive.\r\n",
+    "last_update": "2015-11-26T15:15:28.179Z",
+    "related": [],
+    "slug": "huffington-post-employee-sucked-aggregation-turbine",
+    "content_template": "zinnia/_entry_detail.html",
+    "sites": [
+      1
+    ],
+    "comment_enabled": true,
+    "authors": [
+      1
+    ],
+    "end_publication": null,
+    "content": "NEW YORK\u2014Shocked and saddened witnesses at the Huffington Post's news-aggregation facility have confirmed that employee Henry Evers, 25, died Wednesday after being sucked into the website's powerful news-repurposing turbine, where his body was immediately torn to pieces.\r\n\r\n\r\nThe 200-ton content-compiling device, developed by Greek multimillionaire and site co-founder Ari\u00adanna Huffington, sucks up original articles from around the web with its massive rotor assembly, re-brands them with the Huffington Post name, and then spits them back out on the company's home page.\r\n\r\nWorkers said that when the machine ground to a halt at approximately 11:30 a.m., Evers reached inside to dislodge a particularly thoughtful 700-word Christian Science Monitor essay on the unrest in Syria that had become jammed.\r\n\r\nApparently unprepared for the aggregator mechanism's quick restart, Evers was gruesomely dismembered by its rapidly spinning blades, which soaked the room in blood and unprocessed news content.\r\n\r\n\"I heard this grinding noise, and then I saw all these Washington Post stories, sexy pictures of people in the workplace, and celebr\u00adity anti-vaccine editorials start to back up on the factory floor,\" said Huffington Post editor Emily Paxton, who monitors an array of computer screens displaying news sites like NYTimes.com and then presses enter on a keyboard, sending the content into the turbine, which through sheer axial force posts each piece on HuffingtonPost.com with a 30-word introductory paragraph. \"Before I could stop him, Henry had his arm crammed way down in there. He pulled out an article, smiled, and the next thing I knew, he was sucked headfirst into the rotary casing.\"\r\n\r\n\"We couldn't shut it down,\" continued Paxton, adding that the smell of mutilated remains mixed with raw Internet media was gag-inducing. \"If we had, it would have taken a full day for the technicians to reset it, and we couldn't risk missing a breaking story on Brody Jenner.\"\r\n\r\nSince The Huffington Post was founded in 2005, its headquarters has consisted of two rooms: Arianna Huffington's spacious, lav\u00adishly appointed office overlooking New York City, and the windowless 10,000-square-foot subterranean warehouse that houses the turbine. More than 700 low-wage workers, known as writers, clock in every day, and, dressed in their Huffington Post hard hats and coveralls, work in dark, unsafe conditions to ensure the machine runs smoothly and constantly churns out content.\r\n'Huffington Post' writers following a typical 16-hour turbine shift.\r\n\r\nOperating at 5,100 rpm, or the equivalent of 2,500 online articles and videos per minute, the turbine uses its massive power to sweep the Internet for stories or photos that ensure HuffingtonPost.com receives enough page views and mouse clicks to appease advertisers.\r\n\r\nThough Evers had worked with the com\u00adpany for 11 months, reports indicate he was unaware the turbine often overheats and malfunctions when tasked with posting an article of more than 400 words.\r\n\r\n\"Evers was pulverized,\" said Aaron Thomas, a spokesperson for the Occupational Safety and Health Administration. \"There was no way to identify him. No dental remains, no hair samples, just eyewitness reports and 17 cell-phone camera videos that the turbine immediately threw up on the site under the tags 'Funny' and 'OMG.'\"\r\n\r\n\"In a way, though, maybe it's a good thing he was ripped to shreds and killed,\" added Thomas, later saying that because The Huffington Post didn't provide Evers with health insurance, he wouldn't have been able to afford his hospital bills, anyway. \"Working the HuffPo turbine is no way to live.\"\r\n\r\nAccording to sources, editor-in-chief Ari\u00adanna Huffington appeared shaken after the incident, asking if the turbine was broken, if it would need to be replaced, and if the horrific accident would affect the posting of a \"Worst Hair In Hollywood\" celebrity feature.\r\n\r\n\"When you harvest as much content as we do, there are bound to be some fatalities,\" Huffington said in a statement. \"That's just part of the job.\"\r\n\r\nRepresentatives from the website said that to honor Evers' memory, they planned to post a slide show titled \"25 Funniest Animal Photobombs We Think Henry Would Have Loved\" as early as tomorrow.\r\n",
+    "start_publication": null,
+    "featured": true,
+    "lead": "Horrified Workers Watch As Colleague Torn Apart By Powerful Content-Gathering Engine\r\n\r\n",
+    "excerpt": "Shocked and saddened witnesses at the Huffington Post's news-aggregation facility have confirmed that employee Henry Evers, 25, died Wednesday after being sucked into the website's powerful news-repurposing turbine, where his body was immediately torn to pieces. ",
+    "trackback_enabled": true,
+    "password": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2015-11-24T20:24:22.629Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: draft",
+    "change_message": "",
+    "object_id": "1",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2015-11-24T20:26:15.100Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: draft",
+    "change_message": "Changed image and image_caption.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2015-11-24T20:27:22.956Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed status.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2015-11-24T20:31:49.159Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "No fields changed.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2015-11-24T20:32:19.812Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Intro",
+    "change_message": "",
+    "object_id": "1",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2015-11-24T20:32:37.750Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Politics",
+    "change_message": "",
+    "object_id": "2",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2015-11-24T20:33:00.322Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "International",
+    "change_message": "",
+    "object_id": "3",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2015-11-24T20:33:15.748Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Satire",
+    "change_message": "",
+    "object_id": "4",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2015-11-24T20:34:04.318Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed categories.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2015-11-24T20:34:22.984Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "History",
+    "change_message": "",
+    "object_id": "5",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2015-11-24T20:55:27.552Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed image.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2015-11-24T22:34:05.046Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed image.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2015-11-24T22:34:39.833Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "No fields changed.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2015-11-24T22:36:14.871Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed image_caption.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2015-11-24T23:27:28.372Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed image_caption.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2015-11-24T23:37:55.469Z",
+    "content_type": 7,
+    "user": 1,
+    "object_repr": "localhost:8000",
+    "change_message": "",
+    "object_id": "2",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2015-11-24T23:40:32.052Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "No fields changed.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2015-11-24T23:49:27.595Z",
+    "content_type": 7,
+    "user": 1,
+    "object_repr": "localhost:8000",
+    "change_message": "Changed domain and name.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2015-11-24T23:49:48.951Z",
+    "content_type": 7,
+    "user": 1,
+    "object_repr": "localhost:8000",
+    "change_message": "",
+    "object_id": "1",
+    "action_flag": 3
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2015-11-25T00:02:54.545Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "",
+    "object_id": "2",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2015-11-25T00:05:18.754Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed content.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2015-11-25T00:20:53.215Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "",
+    "object_id": "3",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2015-11-25T00:22:30.382Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "Changed content.",
+    "object_id": "3",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2015-11-25T16:47:56.820Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Washington, D.C.",
+    "change_message": "",
+    "object_id": "6",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2015-11-25T16:49:45.415Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Sports",
+    "change_message": "",
+    "object_id": "7",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2015-11-25T16:49:48.472Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Sports",
+    "change_message": "No fields changed.",
+    "object_id": "7",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2015-11-25T16:49:53.913Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Local",
+    "change_message": "",
+    "object_id": "8",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2015-11-25T16:50:13.201Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "National",
+    "change_message": "",
+    "object_id": "9",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2015-11-25T16:50:32.649Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "World",
+    "change_message": "",
+    "object_id": "10",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2015-11-25T16:50:38.446Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Business",
+    "change_message": "",
+    "object_id": "11",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2015-11-25T16:50:44.103Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Tech",
+    "change_message": "",
+    "object_id": "12",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2015-11-25T16:50:51.056Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Lifestyle",
+    "change_message": "",
+    "object_id": "13",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2015-11-25T16:51:11.177Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Entertainment",
+    "change_message": "",
+    "object_id": "14",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2015-11-25T16:51:16.945Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Video",
+    "change_message": "",
+    "object_id": "15",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2015-11-25T16:51:31.634Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Photography",
+    "change_message": "",
+    "object_id": "16",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2015-11-25T16:52:14.391Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Opinions",
+    "change_message": "",
+    "object_id": "17",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2015-11-25T16:53:11.758Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Top Stories",
+    "change_message": "",
+    "object_id": "18",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2015-11-25T16:53:41.407Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Health",
+    "change_message": "",
+    "object_id": "19",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2015-11-25T16:53:50.032Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Tina Fey",
+    "change_message": "",
+    "object_id": "20",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2015-11-25T16:55:13.349Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Society",
+    "change_message": "",
+    "object_id": "21",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2015-11-25T16:55:49.804Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Science",
+    "change_message": "",
+    "object_id": "22",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2015-11-25T16:56:03.894Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Technology",
+    "change_message": "Changed title.",
+    "object_id": "12",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2015-11-25T16:56:37.416Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Washington, D.C.",
+    "change_message": "",
+    "object_id": "6",
+    "action_flag": 3
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2015-11-25T16:56:37.471Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "World",
+    "change_message": "",
+    "object_id": "10",
+    "action_flag": 3
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2015-11-25T16:57:18.555Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "Changed categories.",
+    "object_id": "3",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2015-11-25T16:57:46.678Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed categories.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2015-11-25T16:58:02.900Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Education",
+    "change_message": "",
+    "object_id": "23",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2015-11-25T16:58:25.952Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed categories.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2015-11-25T16:59:04.546Z",
+    "content_type": 13,
+    "user": 1,
+    "object_repr": "Reference",
+    "change_message": "",
+    "object_id": "24",
+    "action_flag": 1
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2015-11-25T16:59:36.961Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed categories.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2015-11-25T17:00:44.344Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed featured.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2015-11-26T15:02:51.330Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed featured.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2015-11-26T15:03:16.150Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "Changed featured.",
+    "object_id": "3",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2015-11-26T15:05:39.830Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed image.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2015-11-26T15:08:07.424Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed lead and image_caption.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2015-11-26T15:10:01.144Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed content.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2015-11-26T15:11:10.778Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed featured and excerpt.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2015-11-26T15:11:42.783Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "Changed excerpt.",
+    "object_id": "3",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2015-11-26T15:13:03.292Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed excerpt.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2015-11-26T15:13:22.601Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "No fields changed.",
+    "object_id": "3",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2015-11-26T15:13:39.492Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "Reporter For High School Newspaper Most Professional Journalist In Nation: published",
+    "change_message": "Changed featured.",
+    "object_id": "2",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2015-11-26T15:14:49.024Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "What is Journalism? From Wikipedia, the free encyclopedia: published",
+    "change_message": "Changed excerpt and tags.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2015-11-26T15:15:28.266Z",
+    "content_type": 12,
+    "user": 1,
+    "object_repr": "'Huffington Post' Employee Sucked Into Aggregation Turbine: published",
+    "change_message": "Changed tags.",
+    "object_id": "3",
+    "action_flag": 2
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2015-11-27T17:50:05.882Z",
+    "content_type": 7,
+    "user": 1,
+    "object_repr": "localhost:8000",
+    "change_message": "Changed name.",
+    "object_id": "1",
+    "action_flag": 2
+  }
+}
+]
