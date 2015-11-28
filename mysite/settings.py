@@ -44,6 +44,7 @@ INSTALLED_APPS = (
     'tagging',
     'zinnia',
     'jour',
+    'django_extensions',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -95,14 +96,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+"""
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -149,13 +150,21 @@ except ImportError:
     sys.stderr.write("ERROR: No verification settings found.\n\n")
     sys.exit(1)
 
-
+"""
 try:
+    import_filename = 'settings_db'
     from mysite.settings_local import *
     print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'settings_local has been imported')
 except ImportError:
     sys.stderr.write("WARNING: No local settings found.\n\n")
     pass
+"""
+
+try:
+    from mysite.settings_db import *
+    print(mysite.my_utils.module_path(), 'line', mysite.my_utils.lineno(), 'settings_db has been imported')
+except ImportError:
+    sys.stderr.write("WARNING: No db settings found.\n\n")
 
 
 try:

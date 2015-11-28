@@ -1,6 +1,7 @@
 my.cnf
 doc
 doc/*
+# */settings_db.py
 *.sublime-workspace
 *.sublime-project
 # */settings_email.py
