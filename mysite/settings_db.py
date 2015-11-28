@@ -9,13 +9,11 @@ DATABASES = {
     }
 }
 """
-
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 import os
 from django.conf import settings  # import the settings file
-
 
 DATABASES = {
     'default': {
@@ -32,7 +30,7 @@ DATABASES_SQLITE3 = {
     }
 }
 
-
+"""
 DATABASES_MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -43,7 +41,7 @@ DATABASES_MYSQL = {
         # 'PORT': '3306',
     }
 }
-
+"""
 
 import subprocess
 # import sys
@@ -56,7 +54,7 @@ def run_command(command):
     return iter(p.stdout.readline, b'')
 
 
-def check_envir(test):
+def check_for_mysql_envir(test):
     """if uname -a returns a string containing localhost, use sqlite3, otherwise use mysql
     on sourselair uname -a returns:
     Linux ebe41dcd98db 3.13.0-46-generic #79-Ubuntu SMP Tue Mar 10 20:06:50 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
@@ -79,4 +77,4 @@ def check_envir(test):
             print(target, 'found', '; using sqlite database')
 
 
-check_envir(False)
+# check_envir(False)

@@ -1,3 +1,5 @@
+<!-- hello again jproj/zinnia/templates/zinnia/base.html  -->
+
 {% extends "zinnia/skeleton.html" %}
 {% load zinnia i18n %}
 
@@ -22,11 +24,13 @@
   {% zinnia_breadcrumbs %}
 {% endblock breadcrumbs %}
 
+<!-- hello again jproj/zinnia/templates/zinnia/base.html  -->
+
 {% block sidebar %}
 <aside id="widget-welcome" class="widget">
   <h3>{% trans "Welcome!" %}</h3>
   <p>
-    This website is APP_TITLE = {{ APP_TITLE }}'s showcase and learning tool.
+    This website is {{ APP_TITLE }}'s showcase and learning tool.
   </p>
 <!--
   <p>
