@@ -3,10 +3,10 @@ doc
 doc/*
 *.sublime-workspace
 *.sublime-project
-*/settings_email.py
+# */settings_email.py
 */settings_cryptoblog.py
-*/settings_secret.py
-*/settings_local.py
+# */settings_secret.py
+# */settings_local.py
 blog/encryption.py
 *.pyc
 __pycache__
