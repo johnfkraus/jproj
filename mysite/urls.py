@@ -1,4 +1,6 @@
-"""mysite URL Configuration
+""" jproj/mysite/urls.py
+
+mysite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -20,7 +22,8 @@ from django.conf import settings
 
 urlpatterns = patterns(
     '',
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^', include('jour.urls')),
     url(r'^weblog/', include('zinnia.urls', namespace='zinnia')),
+    url(r'^admin/', include(admin.site.urls)),
     url(r'^comments/', include('django_comments.urls')),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
