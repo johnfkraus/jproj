@@ -31,8 +31,14 @@
 <aside id="widget-welcome" class="widget">
   <h3>{% trans "Welcome!" %}</h3>
   <p>
-    This website is {{ APP_TITLE }}'s showcase and learning tool."
+    This website is {{ APP_TITLE }}'s showcase and learning tool.
   </p>
+    <p>
+    Support for {{ APP_TITLE }} is provided by a grant from the Cheesy Poofs Foundation.
+  </p>
+
+      <img src="{% static "zinnia/theme/img/CheesyPoofs.png" %}" alt="?" class="help" width="100"  />
+
 <!--
   <p>
     { % trans "Don't hesitate to override the template <strong>zinnia/base.html</strong> to start <a href='http://docs.django-blog-zinnia.com/en/latest/how-to/customize_look_and_feel.html'>customizing your Weblog</a>." % }
