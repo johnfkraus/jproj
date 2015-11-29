@@ -132,6 +132,11 @@ APP_TITLE = 'The Journalism Project'  # SITE_TITLE, SITE_NAME
 
 DEFAULT_CONTACT = 'johnkraus3@gmail.com'
 
+FIXTURE_DIRS = (
+    '/zinnia/fixtures/',
+)
+
+
 try:
     from mysite.settings_secret import *
 except ImportError:

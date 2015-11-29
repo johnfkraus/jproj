@@ -1065,3 +1065,10 @@ table {
       color: white; }
     .zinnia .success a:active {
       color: white; }
+
+
+.zinnia img.cheesypoofs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}

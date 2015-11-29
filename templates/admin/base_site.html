@@ -1,12 +1,22 @@
+<!-- hello jproj/templates/admin/base_site.html   -->
+
 {% extends "admin/base.html" %}
 
 {% block title %} {{ APP_TITLE }} Admin | {{ site_title|default:_('Django site admin') }}{% endblock %}
 
 {% block branding %}
     <h1 id="site-name">
-        <a href="{% url 'admin:index' %}">
-            {{ APP_TITLE }} Website Administration
+        <!--
+        <a href="{ % url 'admin:index' % }">
+            {  { APP_TITLE }   } 
+            Website Administration
         </a>
+        -->
+        <a href="{{ site_url }}weblog/">
+            {{ APP_TITLE }}
+        </a>
+        Website Administration
+
     </h1>
 {% endblock %}
 

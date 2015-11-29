@@ -25,7 +25,7 @@ diffsettings*
 *.iml
 .idea
 DEL
-*.sql
+# *.sql
 *.bak
 mypy*
 myvenv
