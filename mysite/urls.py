@@ -26,4 +26,5 @@ urlpatterns = patterns(
     url(r'^weblog/', include('zinnia.urls', namespace='zinnia')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^comments/', include('django_comments.urls')),
+    url(r'^video/', include('posts.urls', namespace='posts')),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
