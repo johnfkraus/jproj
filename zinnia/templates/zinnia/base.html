@@ -1,4 +1,4 @@
-<!-- hello again jproj/zinnia/templates/zinnia/base.html  -->
+<!-- hello #1 jproj/zinnia/templates/zinnia/base.html  -->
 
 {% extends "zinnia/skeleton.html" %}
 {% load staticfiles %}
@@ -25,7 +25,7 @@
   {% zinnia_breadcrumbs %}
 {% endblock breadcrumbs %}
 
-<!-- hello again jproj/zinnia/templates/zinnia/base.html  -->
+<!-- hello line 28 jproj/zinnia/templates/zinnia/base.html  -->
 
 {% block sidebar %}
 <aside id="widget-welcome" class="widget">
@@ -120,5 +120,20 @@
     </li>
   </ul>
 </aside>
+
+  <!-- { % elif protected % }  -->
+{% else %}
+<aside id="widget-tools" class="widget">
+  <h3>{% trans "Tools" %}</h3>
+  <ul>
+    <li>
+      <a href="/admin/" title="Admin Login">
+        {% trans "Administrator Login" %}
+      </a>
+    </li>
+  </ul>
+</aside>
+
+
 {% endif %}
 {% endblock sidebar %}
