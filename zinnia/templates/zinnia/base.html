@@ -113,6 +113,15 @@
     {% endif %}
     {% block admin-tools %}
     {% endblock admin-tools %}
+
+
+    <li>
+      <a href="mailto:johnkraus3@gmail.com?Subject=The%20Journalism%20Project" target="_blank">
+        Contact Webmaster
+      </a>
+    </li>
+
+
     <li>
       <a href="{% url 'admin:logout' %}" title="{% trans "Log out" %}">
         {% trans "Log out" %}
@@ -129,6 +138,11 @@
     <li>
       <a href="/admin/" title="Admin Login">
         {% trans "Administrator Login" %}
+      </a>
+    </li>
+    <li>
+      <a href="mailto:johnkraus3@gmail.com?Subject=The%20Journalism%20Project" target="_blank">
+        Contact Webmaster
       </a>
     </li>
   </ul>
