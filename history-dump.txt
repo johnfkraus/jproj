@@ -1,0 +1,22 @@
+  557  python manage.py dumpdata --indent 2 > all.json
+  625  history | grep dump
+  630  python manage.py dumpdata --format=json zinnia a > /root/jproj/zinnia/fixtures/initial_data.json
+  631  python manage.py dumpdata --format=json zinnia > /root/jproj/zinnia/fixtures/initial_data.json
+  875  history | dump
+  876  history | grep dump
+  877  python manage.py dumpdata --format=yaml --flowstyle=false
+  878  python manage.py dumpdata --format=yaml
+  879  python manage.py dumpdata --format=yaml > all-dump-yaml.txt
+  880  python manage.py dumpdata --help
+  881  python manage.py dumpdata --format=yaml --default_flow_style=false
+  882  python manage.py dumpdata --help | grep flow
+  889  history | grep dump
+  891  python manage.py dumpdata --format=json example_project > all.json
+  896  python manage.py dumpdata --format=json embed_video  > all.json
+  898  python manage.py dumpdata --format=json embed_video  >  all.json
+  900  python manage.py dumpdata --format=json posts  >  all.json
+  904  history | grep dump
+  905  python manage.py dumpdata --format=json --indent 2  posts  >  all.json
+  908  python manage.py dumpdata --format=json --indent 2   >  all2.json
+ 1057  history | grep dump
+ 1058  history | grep dump > history-dump.txt

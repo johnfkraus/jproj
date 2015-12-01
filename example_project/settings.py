@@ -3,7 +3,7 @@
 print('line 3 hello from video/example_project/settings.py')
 
 DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+# TEMPLATE_DEBUG = DEBUG
 
 DATABASES = {
     'default': {
@@ -12,7 +12,7 @@ DATABASES = {
     }
 }
 
-SITE_ID = 1
+SITE_ID = 999
 
 SECRET_KEY = 'u%38dln@$1!7w#cxi4np504^sa3_skv5aekad)jy_u0v2mc+nr'
 

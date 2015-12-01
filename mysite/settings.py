@@ -45,6 +45,8 @@ INSTALLED_APPS = (
     'zinnia',
     'jour',
     'django_extensions',
+    'posts',
+    'embed_video',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -87,6 +89,16 @@ TEMPLATES = [
                 'django.template.context_processors.i18n',
                 'zinnia.context_processors.version',  # Optional
                 'jour.context_processors.app_title',
+
+                'django.core.context_processors.debug',
+                'django.core.context_processors.i18n',
+                'django.core.context_processors.media',
+                'django.core.context_processors.static',
+                'django.core.context_processors.tz',
+                'django.core.context_processors.request',
+
+
+
             ],
         },
     },

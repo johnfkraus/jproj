@@ -1,0 +1,74 @@
+[
+{
+  "model": "posts.post",
+  "pk": 1,
+  "fields": {
+    "title": "I will wait",
+    "video": "http://www.youtube.com/watch?v=rGKfrgqWcv0"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 2,
+  "fields": {
+    "title": "Cinematographer",
+    "video": "http://vimeo.com/59626663"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 4,
+  "fields": {
+    "title": "Mountain Sound",
+    "video": "http://www.youtube.com/watch?v=vT3HrrrHzII"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 5,
+  "fields": {
+    "title": "Lost in the echo",
+    "video": "https://soundcloud.com/linkin_park/linkin-park-lost-in-the-echo"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 6,
+  "fields": {
+    "title": "Moonlight Sonata",
+    "video": "https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 7,
+  "fields": {
+    "title": "5th Symphony",
+    "video": "https://soundcloud.com/vahe-ghukasyan/beethoven-5th-symphony"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 8,
+  "fields": {
+    "title": "Stubborn love",
+    "video": "http://youtu.be/UJWk_KNbDHo"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 9,
+  "fields": {
+    "title": "Timelapse",
+    "video": "http://vimeo.com/14352658"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 13,
+  "fields": {
+    "title": "Skateboarding Dog",
+    "video": "https://youtu.be/CQzUsTFqtW0"
+  }
+}
+]

@@ -31,6 +31,9 @@ class EntryAdmin(admin.ModelAdmin):
         (_('Illustration'), {
             'fields': ('image', 'image_caption'),
             'classes': ('collapse', 'collapse-closed')}),
+        (_('Video'), {
+            'fields': ('video', 'video_caption'),
+            'classes': ('collapse', 'collapse-closed')}),
         (_('Publication'), {
             'fields': (('start_publication', 'end_publication'),
                        'creation_date', 'sites'),
@@ -198,8 +201,7 @@ class EntryAdmin(admin.ModelAdmin):
         """
         if db_field.name == 'authors':
             kwargs['queryset'] = Author.objects.filter(
-                Q(is_staff=True) | Q(entries__isnull=False)
-                ).distinct()
+                Q(is_staff=True) | Q(entries__isnull=False)).distinct()
 
         return super(EntryAdmin, self).formfield_for_manytomany(
             db_field, request, **kwargs)

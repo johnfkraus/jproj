@@ -447,8 +447,44 @@ class ImageEntry(models.Model):
         help_text=_('Used for illustration.'))
 
     image_caption = models.TextField(
-        _('caption'), blank=True,
+        _('image caption'), blank=True,
         help_text=_("Image's caption."))
+
+    class Meta:
+        abstract = True
+
+from embed_video.fields import EmbedVideoField
+
+
+class VideoEntry(models.Model):
+    """
+    Abstract model class to add a video.
+    """
+
+    """def image_upload_to(self, filename):"""
+    """
+        Compute the upload path for the image field.  But we're not going to upload videos.
+        """
+    """    now = timezone.now()
+        filename, extension = os.path.splitext(filename)
+
+        return os.path.join(
+            UPLOAD_TO,
+            now.strftime('%Y'),
+            now.strftime('%m'),
+            now.strftime('%d'),
+            '%s%s' % (slugify(filename), extension))"""
+
+    video = EmbedVideoField(blank=True, null=True, verbose_name='Embed URL', help_text='Enter the URL of the video, for example: "https://youtu.be/UsCQzTW0Fqt"')
+
+    """image = models.ImageField(
+        _('image'), blank=True,
+        upload_to=image_upload_to_dispatcher,
+        help_text=_('Used for illustration.'))"""
+
+    video_caption = models.TextField(
+        _('video caption'), blank=True,
+        help_text=_("Video's caption."))
 
     class Meta:
         abstract = True
@@ -577,6 +613,7 @@ class AbstractEntry(
         LeadEntry,
         ExcerptEntry,
         ImageEntry,
+        VideoEntry,
         FeaturedEntry,
         AuthorsEntry,
         CategoriesEntry,

@@ -76,4 +76,5 @@ class EntryAdminForm(forms.ModelForm):
             'lead': MiniTextarea,
             'excerpt': MiniTextarea,
             'image_caption': MiniTextarea,
+            'video_caption': MiniTextarea,
         }
