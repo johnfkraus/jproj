@@ -11,3 +11,7 @@ TODO:
 Add links, for example:
 
 https://owl.english.purdue.edu/owl/resource/735/02/
+
+Add full text search; django-haystack
+
+
