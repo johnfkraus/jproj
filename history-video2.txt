@@ -1,0 +1,5 @@
+  299  git pull origin video2
+  301  git branch --set-upstream-to=origin/video2
+  307  git pull origin video2
+ 1021  history | grep video2
+ 1022  history | grep video2 > history-video2.txt
