@@ -1,4 +1,4 @@
-<!-- hello #1 jproj/zinnia/templates/zinnia/base.html  -->
+<!-- hello #1 jproj/zinnia/templates/zinnia/base.html  Dec. 29-->
 
 {% extends "zinnia/skeleton.html" %}
 {% load staticfiles %}
@@ -31,12 +31,10 @@
 <aside id="widget-welcome" class="widget">
   <h3>{% trans "Welcome!" %}</h3>
   <p>
-    This website is {{ APP_TITLE }}'s showcase and learning tool.
+    This website is <span style="font-weight: bold;">{{ APP_TITLE }}</span>'s showcase and learning tool.
   </p>
-
-    <p>
-    Support for <b>{{ APP_TITLE }}</b> is provided by a grant from the <strong style="color:orange; font-size: 110%;">Cheesy Poofs Foundation</strong>.
-  </p>
+  <p>
+    Support for <span style="font-weight: bold;">{{ APP_TITLE }}</span> is provided by a grant from the <span style="font-weight: bold; color:orange; font-size: 110%;">Cheesy Poofs Foundation</span>.</p>
   <p>
       <img class="cheesypoofs" src="{% static "zinnia/theme/img/CheesyPoofs.png" %}" alt="?" width="300"  />
   </p>
