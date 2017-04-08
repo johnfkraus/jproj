@@ -1,5 +1,7 @@
 # jproj
 
+![alt text](https://github.com/johnfkraus/jproj/blob/master/jproj.png "Journalism Project screenshot")
+
 Obsolete Development URL:  http://h3r9c26o.apps.lair.io/
 
 Developed with Sublime Text 2 and Sourcelair (MySQL)
